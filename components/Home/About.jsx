@@ -16,7 +16,6 @@ const About = () => {
           desc={[
             "Smaller payments.",
             "Pay one sprint at a time.",
-            "Stop whenever you want.",
           ]}
         />
         <AboutBox

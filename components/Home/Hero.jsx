@@ -14,11 +14,11 @@ const Hero = () => {
       <div className="w-full flex justify-center items-center bg-black bg-opacity-40 py-[40px]">
         <div className="w-[90%] flex justify-start items-center md:text-left text-center md:items-start flex-col gap-5">
           <h1 className="text-white font-extrabold text-[30px] sm:text-[40px] md:text-[48px] leading-[1] max-w-[800px]">
-            MVP Software Development<br/> for your business or startup
+            MVP Software Development<br/> for your business
           </h1>
           <p className="text-white mt-2 text-base sm:text-xl md:text-2xl font-semibold leading-[1.2] max-w-[700px]">
             Launch your MVP with <b>Fast</b>,{" "}
-            <b>Reliable</b>, and <b>Effective</b> software
+            <b>Reliable</b>, <br/> and <b>Effective</b> software
             sprints.
           </p>
           <Button>Book a sprint call</Button>
