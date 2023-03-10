@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "MVP-Minecraft";
+  src: url("/fonts/Raleway.woff2");
+}
+
+@font-face {
+  font-family: "MVP-Dumbuledore";
+  src: url("/fonts/Haettenschweiler_Regular.woff2");
+}
+
+@font-face {
+  font-family: "MVP-Serious";
+  src: url("/fonts/Highman_Trial.woff2");
+}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkBlue;
+  }
+}
+body::-webkit-scrollbar {
+  width: 0.7vw;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--background--color);
+  border: 2px solid #fff;
+  border-radius: 100vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
