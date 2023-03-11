@@ -21,13 +21,13 @@ const Steps = () => {
           img="/Larry_map.svg"
         />
         <StepBox
-          title="Sprint reviews"
+          title="Review each sprint"
           para="Monthly reviews for quality assurance, and scope congruence ."
           order
           img="/Larry_loadbar.svg"
         />
         <StepBox
-          title="Project delivery"
+          title="Launch your MVP"
           para="Your mvp software approved and tested !"
           img="/Larry_team.png"
         />
