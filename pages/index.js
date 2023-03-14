@@ -24,7 +24,7 @@ export default function Home() {
       <div className="w-full py-[60px] mt-20 lg:pb-[120px] lg:pt-[40px] bg-white flex justify-center items-center flex-col ">
         <Aws />
         <Frameworks />
-        <div className="flex mx-auto gap-20 justify- text-center items-center w-[90%] flex-col mt-[100px]">
+        <div className="flex mx-auto gap-20 justify-text-center items-center w-[90%] flex-col mt-[100px]">
           <h2 className="text-black max-w-[914px] leading-[1] text-[40px] sm:text-[60px] md:text-[80px] font-base font-dumbledore">
             Build, secure and scale your MVP with true experts.
           </h2>

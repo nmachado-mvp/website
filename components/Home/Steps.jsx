@@ -3,7 +3,7 @@ import Image from "next/image";
 const Steps = () => {
   return (
     <div className="bg-white w-full flex mt-20 sm:mt-28 justify-center items-center flex-col">
-      <div className="flex gap-14 sm:gap-20 justify-center items-center flex-col w-[90%]">
+      <div className="flex justify-center items-center flex-col w-[90%]">
         <StepBox
           title="Book sprint call"
           para="Share your project's vision so we can find the best way to build it."
@@ -17,18 +17,18 @@ const Steps = () => {
         />
         <StepBox
           title="Recieve roadmap"
-          para="Sprints, time and developers needed for your project"
+          para="Sprints, time and developers needed for your project."
           img="/Larry_map.svg"
         />
         <StepBox
           title="Review each sprint"
-          para="Monthly reviews for quality assurance, and scope congruence ."
+          para="Monthly reviews for quality assurance, and scope congruence."
           order
           img="/Larry_loadbar.svg"
         />
         <StepBox
           title="Launch your MVP"
-          para="Your mvp software approved and tested !"
+          para="Your mvp software approved and tested!"
           img="/Larry_team.png"
         />
       </div>
@@ -42,7 +42,7 @@ const StepBox = ({ order, title, img, para }) => {
   return (
     <div
       className={`${order ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
-        } bg-white w-full lg:w-[80%] gap-2 lg:gap-10  rounded-[30px] sm:rounded-[96px] px-5 sm:px-[40px] xl:px-[70px] py-[70px] h-[600px] flex justify-between items-center`}
+        } bg-white w-full lg:w-[80%] gap-2 lg:gap-10 rounded-[30px] sm:rounded-[96px] px-5 sm:px-[40px] xl:px-[70px] py-[70px] h-[500px] flex justify-between items-center`}
     >
       <div className="w-full flex justify-start items-center text-center lg:text-left lg:items-start flex-col lg:gap-5">
         <h2 className="text-black text-[40px] sm:text-[60px] font-dumbledore font-medium">
